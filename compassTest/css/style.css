@@ -1,0 +1,662 @@
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+/* line 5, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 1, ../scss/_layout.scss */
+.container-full {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 6, ../scss/_layout.scss */
+.container {
+  width: 1150px !important;
+  margin: 0 auto;
+}
+
+/* line 11, ../scss/_layout.scss */
+.col-3 {
+  width: 28.57143%;
+  padding: 20px;
+  display: inline-block;
+}
+
+/* line 16, ../scss/_layout.scss */
+.fixed {
+  position: fixed;
+}
+
+/* line 20, ../scss/_layout.scss */
+.text-center {
+  text-align: center;
+}
+
+/* line 24, ../scss/_layout.scss */
+h1, h2, h3, h4, h5, h6 {
+  padding: 5px;
+  margin: 3px;
+  line-height: 1.5em;
+}
+
+/* line 30, ../scss/_layout.scss */
+h1 {
+  font-size: 3em;
+}
+
+/* line 30, ../scss/_layout.scss */
+h2 {
+  font-size: 2.5em;
+}
+
+/* line 30, ../scss/_layout.scss */
+h3 {
+  font-size: 2em;
+}
+
+/* line 30, ../scss/_layout.scss */
+h4 {
+  font-size: 1.8em;
+}
+
+/* line 30, ../scss/_layout.scss */
+h5 {
+  font-size: 1.4em;
+}
+
+/* line 30, ../scss/_layout.scss */
+h6 {
+  font-size: 1em;
+}
+
+/* line 36, ../scss/_layout.scss */
+.padding-1 {
+  padding: 2px;
+}
+
+/* line 37, ../scss/_layout.scss */
+.pt-1 {
+  padding-top: 2px;
+}
+
+/* line 38, ../scss/_layout.scss */
+.pb-1 {
+  padding-bottom: 2px;
+}
+
+/* line 36, ../scss/_layout.scss */
+.padding-2 {
+  padding: 4px;
+}
+
+/* line 37, ../scss/_layout.scss */
+.pt-2 {
+  padding-top: 4px;
+}
+
+/* line 38, ../scss/_layout.scss */
+.pb-2 {
+  padding-bottom: 4px;
+}
+
+/* line 36, ../scss/_layout.scss */
+.padding-3 {
+  padding: 6px;
+}
+
+/* line 37, ../scss/_layout.scss */
+.pt-3 {
+  padding-top: 6px;
+}
+
+/* line 38, ../scss/_layout.scss */
+.pb-3 {
+  padding-bottom: 6px;
+}
+
+/* line 36, ../scss/_layout.scss */
+.padding-4 {
+  padding: 8px;
+}
+
+/* line 37, ../scss/_layout.scss */
+.pt-4 {
+  padding-top: 8px;
+}
+
+/* line 38, ../scss/_layout.scss */
+.pb-4 {
+  padding-bottom: 8px;
+}
+
+/* line 36, ../scss/_layout.scss */
+.padding-5 {
+  padding: 10px;
+}
+
+/* line 37, ../scss/_layout.scss */
+.pt-5 {
+  padding-top: 10px;
+}
+
+/* line 38, ../scss/_layout.scss */
+.pb-5 {
+  padding-bottom: 10px;
+}
+
+/* line 36, ../scss/_layout.scss */
+.padding-6 {
+  padding: 12px;
+}
+
+/* line 37, ../scss/_layout.scss */
+.pt-6 {
+  padding-top: 12px;
+}
+
+/* line 38, ../scss/_layout.scss */
+.pb-6 {
+  padding-bottom: 12px;
+}
+
+/* line 36, ../scss/_layout.scss */
+.padding-7 {
+  padding: 14px;
+}
+
+/* line 37, ../scss/_layout.scss */
+.pt-7 {
+  padding-top: 14px;
+}
+
+/* line 38, ../scss/_layout.scss */
+.pb-7 {
+  padding-bottom: 14px;
+}
+
+/* line 36, ../scss/_layout.scss */
+.padding-8 {
+  padding: 16px;
+}
+
+/* line 37, ../scss/_layout.scss */
+.pt-8 {
+  padding-top: 16px;
+}
+
+/* line 38, ../scss/_layout.scss */
+.pb-8 {
+  padding-bottom: 16px;
+}
+
+/* line 36, ../scss/_layout.scss */
+.padding-9 {
+  padding: 18px;
+}
+
+/* line 37, ../scss/_layout.scss */
+.pt-9 {
+  padding-top: 18px;
+}
+
+/* line 38, ../scss/_layout.scss */
+.pb-9 {
+  padding-bottom: 18px;
+}
+
+/* line 36, ../scss/_layout.scss */
+.padding-10 {
+  padding: 20px;
+}
+
+/* line 37, ../scss/_layout.scss */
+.pt-10 {
+  padding-top: 20px;
+}
+
+/* line 38, ../scss/_layout.scss */
+.pb-10 {
+  padding-bottom: 20px;
+}
+
+/* line 36, ../scss/_layout.scss */
+.padding-11 {
+  padding: 22px;
+}
+
+/* line 37, ../scss/_layout.scss */
+.pt-11 {
+  padding-top: 22px;
+}
+
+/* line 38, ../scss/_layout.scss */
+.pb-11 {
+  padding-bottom: 22px;
+}
+
+/* line 36, ../scss/_layout.scss */
+.padding-12 {
+  padding: 24px;
+}
+
+/* line 37, ../scss/_layout.scss */
+.pt-12 {
+  padding-top: 24px;
+}
+
+/* line 38, ../scss/_layout.scss */
+.pb-12 {
+  padding-bottom: 24px;
+}
+
+/* line 36, ../scss/_layout.scss */
+.padding-13 {
+  padding: 26px;
+}
+
+/* line 37, ../scss/_layout.scss */
+.pt-13 {
+  padding-top: 26px;
+}
+
+/* line 38, ../scss/_layout.scss */
+.pb-13 {
+  padding-bottom: 26px;
+}
+
+/* line 36, ../scss/_layout.scss */
+.padding-14 {
+  padding: 28px;
+}
+
+/* line 37, ../scss/_layout.scss */
+.pt-14 {
+  padding-top: 28px;
+}
+
+/* line 38, ../scss/_layout.scss */
+.pb-14 {
+  padding-bottom: 28px;
+}
+
+/* line 36, ../scss/_layout.scss */
+.padding-15 {
+  padding: 30px;
+}
+
+/* line 37, ../scss/_layout.scss */
+.pt-15 {
+  padding-top: 30px;
+}
+
+/* line 38, ../scss/_layout.scss */
+.pb-15 {
+  padding-bottom: 30px;
+}
+
+/* line 36, ../scss/_layout.scss */
+.padding-16 {
+  padding: 32px;
+}
+
+/* line 37, ../scss/_layout.scss */
+.pt-16 {
+  padding-top: 32px;
+}
+
+/* line 38, ../scss/_layout.scss */
+.pb-16 {
+  padding-bottom: 32px;
+}
+
+/* line 36, ../scss/_layout.scss */
+.padding-17 {
+  padding: 34px;
+}
+
+/* line 37, ../scss/_layout.scss */
+.pt-17 {
+  padding-top: 34px;
+}
+
+/* line 38, ../scss/_layout.scss */
+.pb-17 {
+  padding-bottom: 34px;
+}
+
+/* line 36, ../scss/_layout.scss */
+.padding-18 {
+  padding: 36px;
+}
+
+/* line 37, ../scss/_layout.scss */
+.pt-18 {
+  padding-top: 36px;
+}
+
+/* line 38, ../scss/_layout.scss */
+.pb-18 {
+  padding-bottom: 36px;
+}
+
+/* line 36, ../scss/_layout.scss */
+.padding-19 {
+  padding: 38px;
+}
+
+/* line 37, ../scss/_layout.scss */
+.pt-19 {
+  padding-top: 38px;
+}
+
+/* line 38, ../scss/_layout.scss */
+.pb-19 {
+  padding-bottom: 38px;
+}
+
+/* line 36, ../scss/_layout.scss */
+.padding-20 {
+  padding: 40px;
+}
+
+/* line 37, ../scss/_layout.scss */
+.pt-20 {
+  padding-top: 40px;
+}
+
+/* line 38, ../scss/_layout.scss */
+.pb-20 {
+  padding-bottom: 40px;
+}
+
+/* line 43, ../scss/_layout.scss */
+.img-1 {
+  width: 10%;
+  height: auto;
+}
+
+/* line 43, ../scss/_layout.scss */
+.img-2 {
+  width: 20%;
+  height: auto;
+}
+
+/* line 43, ../scss/_layout.scss */
+.img-3 {
+  width: 30%;
+  height: auto;
+}
+
+/* line 43, ../scss/_layout.scss */
+.img-4 {
+  width: 40%;
+  height: auto;
+}
+
+/* line 43, ../scss/_layout.scss */
+.img-5 {
+  width: 50%;
+  height: auto;
+}
+
+/* line 43, ../scss/_layout.scss */
+.img-6 {
+  width: 60%;
+  height: auto;
+}
+
+/* line 43, ../scss/_layout.scss */
+.img-7 {
+  width: 70%;
+  height: auto;
+}
+
+/* line 43, ../scss/_layout.scss */
+.img-8 {
+  width: 80%;
+  height: auto;
+}
+
+/* line 43, ../scss/_layout.scss */
+.img-9 {
+  width: 90%;
+  height: auto;
+}
+
+/* line 43, ../scss/_layout.scss */
+.img-10 {
+  width: 100%;
+  height: auto;
+}
+
+/* line 46, ../scss/_layout.scss */
+.frame {
+  -moz-box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 10px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 10px;
+  box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 10px;
+  border: 10px solid #fff;
+  margin-right: 30px;
+}
+
+/* line 52, ../scss/_layout.scss */
+.lfloat {
+  float: left;
+  display: inline-block;
+}
+
+/* line 56, ../scss/_layout.scss */
+.rfloat {
+  float: right;
+  display: inline-block;
+}
+
+@font-face {
+  font-family: "Diner";
+  src: url('../fonts/Diner-Fatt-webfont.eot?1455286556') format('embedded-opentype'), url('../fonts/Diner-Fatt-webfont.ttf?1455286556') format('truetype'), url('../fonts/Diner-Fatt-webfont.otf') format('opentype'), url('../fonts/Diner-Fatt-webfont.svg?1455286556') format('svg');
+}
+@font-face {
+  font-family: "OpenSans Light";
+  src: url('../fonts/OpenSans-Light-webfont.eot?1454333430') format('embedded-opentype'), url('../fonts/OpenSans-Light-webfont.ttf?1454333430') format('truetype'), url('../fonts/OpenSans-Light-webfont.otf') format('opentype'), url('../fonts/OpenSans-Light-webfont.svg?1454333430') format('svg');
+}
+/* line 9, ../scss/style.scss */
+body {
+  line-height: 1.5em;
+  font-size: 0.85em;
+  font-family: "OpenSans Light";
+}
+
+/* line 17, ../scss/style.scss */
+header {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: rgba(60, 60, 60, 0.85);
+  height: 100px;
+  padding: 20px 10px;
+}
+/* line 22, ../scss/style.scss */
+header .logo {
+  float: left;
+  margin-top: 25px;
+  margin-left: 20px;
+  font-family: "Diner";
+  font-size: 4.5rem;
+}
+/* line 30, ../scss/style.scss */
+header .logo a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: rgba(13, 13, 13, 0.9) 0 3px 5px;
+}
+/* line 37, ../scss/style.scss */
+header nav {
+  float: right;
+  margin-top: 21px;
+  font-size: 1.2rem;
+  font-family: "OpenSans Light";
+}
+/* line 42, ../scss/style.scss */
+header nav li {
+  display: inline-block;
+  text-transform: capitalize;
+}
+/* line 45, ../scss/style.scss */
+header nav li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 30px;
+}
+/* line 49, ../scss/style.scss */
+header nav li a:hover {
+  color: #ffae01;
+}
+
+/* line 57, ../scss/style.scss */
+.fronts {
+  height: 500px;
+  position: relative;
+  z-index: -100;
+  background-image: url('../images/img_hawker.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+/* line 67, ../scss/style.scss */
+.fronts .maintxt {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+  text-align: center;
+  color: #fff;
+  padding-top: 430px;
+  font-family: 'Jeju Gothic', sans-serif;
+}
+
+/* line 77, ../scss/style.scss */
+.whitegra {
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2UxZTFlMSIvPjxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjZjVmNWY1Ii8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e1e1e1), color-stop(50%, #f5f5f5), color-stop(100%, #ffffff));
+  background-image: -moz-linear-gradient(#e1e1e1, #f5f5f5, #ffffff);
+  background-image: -webkit-linear-gradient(#e1e1e1, #f5f5f5, #ffffff);
+  background-image: linear-gradient(#e1e1e1, #f5f5f5, #ffffff);
+}
+/* line 79, ../scss/style.scss */
+.whitegra h3 {
+  font-family: "Diner";
+  font-size: 3rem;
+}
+
+/* line 88, ../scss/style.scss */
+.brw {
+  border-right: 1px solid #fff;
+}
+
+/* line 92, ../scss/style.scss */
+footer {
+  background-color: #3c3c3c;
+  color: #fff;
+  padding: 20px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 100px;
+}
+
+/* line 100, ../scss/style.scss */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+/* line 101, ../scss/style.scss */
+body {
+  margin-bottom: 105px;
+}
+
+/* line 102, ../scss/style.scss */
+.footpart {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+}
+
+/* line 105, ../scss/style.scss */
+.icons ul li {
+  display: inline-block;
+  padding-left: 5px;
+}
+/* line 108, ../scss/style.scss */
+.icons ul li a {
+  color: #fff;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  opacity: 0.7;
+}

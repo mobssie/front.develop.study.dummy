@@ -1,0 +1,19 @@
+@import "bourbon/bourbon";
+// Flex Grid
+
+$fg-column: 60px; // 컬럼의 넓이
+$gf-gutter: 25px;
+$fg-max-columns: 12;
+
+div { 
+  width: flex-grid(4); // returns (315px / 1020px) = 3.8823553%;
+  p{
+    width: flex-grid(2, 4);
+    float: left;
+    margin: flex-grid(4);
+  }
+  blockquote{
+    float: left;
+    width: flex-grid(2, 4);
+  }
+}

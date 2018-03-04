@@ -1,0 +1,137 @@
+@import "../bourbon/bourbon";
+.box:hover {
+  @include animation(scale 1.0s ease-in, slide 2.0s ease);
+  @include animation-name(scale, slide);
+  @include animation-duration(2s);
+  @include animation-timing-function(ease);
+  @include animation-iteration-count(infinite);
+}
+
+.back, .back-image {
+  width: 500px;
+  height: 200px;
+  border:1px solid red;
+  margin:20px;
+}
+
+.back {
+  @include background(url("../images/primelogo.png") center no-repeat, linear-gradient(red, green));
+  @include filter(grayscale(50%));
+}
+
+.back-image {
+  @include background-image(url("../images/primelogo.png") , linear-gradient(black 0, red 100%, transparent 100%));
+}
+
+
+
+
+$width: 100%;
+.conbox {
+  @include calc(width, "#{$width} - 80px");
+  border:1px solid blue;
+  padding:10px;
+}
+
+
+.text {
+  @include text-decoration(underline double rgb(124,213,224));
+  @include text-decoration-line(line-through);
+  @include text-decoration-style(double);
+  @include text-decoration-color(#e71d02);
+
+}
+
+.unselectable {
+  @include user-select(none);
+}
+
+$fg-column: 60px;             // Column Width
+$fg-gutter: 25px;             // Gutter Width
+$fg-max-columns: 12;          // Total Columns For Main Container
+
+div {
+  width: flex-grid(4);        // returns (315px / 1020px) = 30.882353%;
+  margin-left: flex-gutter(); // returns (25px / 1020px) = 2.45098%;
+
+  p {
+    width: flex-grid(2, 4);   // returns (145px / 315px) = 46.031746%;
+    float: left;
+    margin: flex-gutter(4);   // returns (25px / 315px) = 7.936508%;
+  }
+
+  blockquote {
+    float: left;
+    width: flex-grid(2, 4);   // returns (145px / 315px) = 46.031746%;
+  }
+}
+
+.sample {
+  font-size: golden-ratio(14px,  2);  
+}
+.sample2 {
+ font-size: golden-ratio(14px,  -1);   
+}
+
+$gw-column: 100px;          // Column Width
+$gw-gutter: 40px;           // Gutter Width
+.linear {
+  width: grid-width(4);     // returns 520px;
+  margin-left: $gw-gutter;  // returns 40px;
+  height: 150px;
+  @include background-image(linear-gradient(#000 0, #999 50%, transparent 100%));
+  border:1px solid red;
+  color:#fff;
+  padding:50px;
+  @include box-sizing(border-box);
+}
+
+.mod1 {
+   font-size: modular-scale(2); // returns: 1.77689em
+  font-size: modular-scale(-1); // returns: 0.75019em  
+  font-size: modular-scale(3, 2em); // returns: 4.73719em
+}
+
+.tint, .shade {
+  width: 200px; 
+  height: 100px;
+  margin:20px;
+  display: inline-block;
+}
+.tint {
+  background: tint(red, 70%);  
+   @include border-right-radius(15px);
+   @include border-color(red green null blue);
+   @include border-style(dashed null solid);
+   @include border-width(1px null 3px);
+}
+.shade {
+  background: shade(blue, 80%); 
+  margin: unpack(1em 2em 3em);
+  font-family: $georgia;
+  @include inline-block;
+}
+
+.btn1 {
+  @include button;
+}
+
+.btn2 {
+  @include button(pill);
+}
+
+.btn3 {
+  @include button(shiny, #ff0000);
+
+}
+
+.clearfix {
+  @include clearfix; 
+}
+
+.textbox li {
+  margin:2px 0;
+  @include ellipsis(70%);
+}
+
+

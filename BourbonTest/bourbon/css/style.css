@@ -1,0 +1,493 @@
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container-full {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 1150px !important;
+  margin: 0 auto;
+}
+
+.col-3 {
+  width: 28.5714285714%;
+  padding: 20px;
+  display: inline-block;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.text-center {
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 5px;
+  margin: 3px;
+  line-height: 1.5em;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+h4 {
+  font-size: 1.8em;
+}
+
+h5 {
+  font-size: 1.4em;
+}
+
+h6 {
+  font-size: 1em;
+}
+
+.padding-1 {
+  padding: 2px;
+}
+
+.pt-1 {
+  padding-top: 2px;
+}
+
+.pb-1 {
+  padding-bottom: 2px;
+}
+
+.padding-2 {
+  padding: 4px;
+}
+
+.pt-2 {
+  padding-top: 4px;
+}
+
+.pb-2 {
+  padding-bottom: 4px;
+}
+
+.padding-3 {
+  padding: 6px;
+}
+
+.pt-3 {
+  padding-top: 6px;
+}
+
+.pb-3 {
+  padding-bottom: 6px;
+}
+
+.padding-4 {
+  padding: 8px;
+}
+
+.pt-4 {
+  padding-top: 8px;
+}
+
+.pb-4 {
+  padding-bottom: 8px;
+}
+
+.padding-5 {
+  padding: 10px;
+}
+
+.pt-5 {
+  padding-top: 10px;
+}
+
+.pb-5 {
+  padding-bottom: 10px;
+}
+
+.padding-6 {
+  padding: 12px;
+}
+
+.pt-6 {
+  padding-top: 12px;
+}
+
+.pb-6 {
+  padding-bottom: 12px;
+}
+
+.padding-7 {
+  padding: 14px;
+}
+
+.pt-7 {
+  padding-top: 14px;
+}
+
+.pb-7 {
+  padding-bottom: 14px;
+}
+
+.padding-8 {
+  padding: 16px;
+}
+
+.pt-8 {
+  padding-top: 16px;
+}
+
+.pb-8 {
+  padding-bottom: 16px;
+}
+
+.padding-9 {
+  padding: 18px;
+}
+
+.pt-9 {
+  padding-top: 18px;
+}
+
+.pb-9 {
+  padding-bottom: 18px;
+}
+
+.padding-10 {
+  padding: 20px;
+}
+
+.pt-10 {
+  padding-top: 20px;
+}
+
+.pb-10 {
+  padding-bottom: 20px;
+}
+
+.padding-11 {
+  padding: 22px;
+}
+
+.pt-11 {
+  padding-top: 22px;
+}
+
+.pb-11 {
+  padding-bottom: 22px;
+}
+
+.padding-12 {
+  padding: 24px;
+}
+
+.pt-12 {
+  padding-top: 24px;
+}
+
+.pb-12 {
+  padding-bottom: 24px;
+}
+
+.padding-13 {
+  padding: 26px;
+}
+
+.pt-13 {
+  padding-top: 26px;
+}
+
+.pb-13 {
+  padding-bottom: 26px;
+}
+
+.padding-14 {
+  padding: 28px;
+}
+
+.pt-14 {
+  padding-top: 28px;
+}
+
+.pb-14 {
+  padding-bottom: 28px;
+}
+
+.padding-15 {
+  padding: 30px;
+}
+
+.pt-15 {
+  padding-top: 30px;
+}
+
+.pb-15 {
+  padding-bottom: 30px;
+}
+
+.padding-16 {
+  padding: 32px;
+}
+
+.pt-16 {
+  padding-top: 32px;
+}
+
+.pb-16 {
+  padding-bottom: 32px;
+}
+
+.padding-17 {
+  padding: 34px;
+}
+
+.pt-17 {
+  padding-top: 34px;
+}
+
+.pb-17 {
+  padding-bottom: 34px;
+}
+
+.padding-18 {
+  padding: 36px;
+}
+
+.pt-18 {
+  padding-top: 36px;
+}
+
+.pb-18 {
+  padding-bottom: 36px;
+}
+
+.padding-19 {
+  padding: 38px;
+}
+
+.pt-19 {
+  padding-top: 38px;
+}
+
+.pb-19 {
+  padding-bottom: 38px;
+}
+
+.padding-20 {
+  padding: 40px;
+}
+
+.pt-20 {
+  padding-top: 40px;
+}
+
+.pb-20 {
+  padding-bottom: 40px;
+}
+
+.img-1 {
+  width: 10%;
+  height: auto;
+}
+
+.img-2 {
+  width: 20%;
+  height: auto;
+}
+
+.img-3 {
+  width: 30%;
+  height: auto;
+}
+
+.img-4 {
+  width: 40%;
+  height: auto;
+}
+
+.img-5 {
+  width: 50%;
+  height: auto;
+}
+
+.img-6 {
+  width: 60%;
+  height: auto;
+}
+
+.img-7 {
+  width: 70%;
+  height: auto;
+}
+
+.img-8 {
+  width: 80%;
+  height: auto;
+}
+
+.img-9 {
+  width: 90%;
+  height: auto;
+}
+
+.img-10 {
+  width: 100%;
+  height: auto;
+}
+
+.frame {
+  border: 10px solid #fff;
+  margin-right: 30px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 10px;
+          box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 10px;
+}
+
+.lfloat {
+  float: left;
+  display: inline-block;
+}
+
+.rfloat {
+  float: right;
+  display: inline-block;
+}
+
+@font-face {
+  font-family: "Diner";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Diner-Fatt-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Diner-Fatt-webfont.woff2") format("woff2"), url("../fonts/Diner-Fatt-webfont.woff") format("woff"), url("../fonts/Diner-Fatt-webfont.ttf") format("truetype"), url("../fonts/Diner-Fatt-webfont.svg#Diner") format("svg");
+}
+@font-face {
+  font-family: "OpenSans Light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/OpenSans-Light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-Light-webfont.woff2") format("woff2"), url("../fonts/OpenSans-Light-webfont.woff") format("woff"), url("../fonts/OpenSans-Light-webfont.ttf") format("truetype"), url("../fonts/OpenSans-Light-webfont.svg#OpenSans Light") format("svg");
+}
+body {
+  line-height: 1.5em;
+  font-size: 0.85em;
+  font-family: "OpenSans Light";
+}
+
+header {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: rgba(60, 60, 60, 0.85);
+  height: 100px;
+  padding: 20px 10px;
+}
+header .logo {
+  float: left;
+  margin-top: 25px;
+  margin-left: 20px;
+  font-family: "Diner";
+  font-size: 4.5rem;
+}
+header .logo a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: rgba(13, 13, 13, 0.9) 0 3px 5px;
+}
+header nav {
+  float: right;
+  margin-top: 21px;
+  font-size: 1.2rem;
+  font-family: "OpenSans Light";
+}
+header nav li {
+  display: inline-block;
+  text-transform: capitalize;
+}
+header nav li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 30px;
+}
+header nav li a:hover {
+  color: #ffae01;
+}
+
+.fronts {
+  height: 500px;
+  position: relative;
+  z-index: -100;
+  background-image: url("../images/img_hawker.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.fronts .maintxt {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+  text-align: center;
+  color: #fff;
+  padding-top: 430px;
+  font-family: 'Jeju Gothic', sans-serif;
+}
+
+.whitegra {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e1e1e1), color-stop(#f5f5f5), to(#fff));
+  background-image: linear-gradient(#e1e1e1, #f5f5f5, #fff);
+}
+.whitegra h3 {
+  font-family: "Diner";
+  font-size: 3rem;
+}
+
+.brw {
+  border-right: 1px solid #fff;
+}
+
+footer {
+  background-color: #3c3c3c;
+  color: #fff;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 100px;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 105px;
+}
+
+.footpart {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+}
+
+.icons ul li {
+  display: inline-block;
+  padding-left: 5px;
+}
+.icons ul li a {
+  color: #fff;
+  opacity: 0.7;
+}
+
+/*# sourceMappingURL=style.css.map */

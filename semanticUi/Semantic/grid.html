@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="semantic-ui/semantic.css">
+        <script
+        src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+        crossorigin="anonymous"></script>
+        <script src="semantic-ui/semantic.min.js"></script>
+        <style>
+        .column{
+            border: 1px solid;
+        }
+        </style>
+    </head>
+    <body>
+        <h1>Basic Grid</h1>
+        <p>시멘틱 그리드는 16등분을 하는 것을 기본으로 하고 있다.</p>
+        <div class="ui grid">
+            <div class="column">1</div>
+            <div class="column">2</div>
+            <div class="column">3</div>
+            <div class="column">4</div>
+            <div class="column">5</div>
+            <div class="column">6</div>
+            <div class="column">7</div>
+            <div class="column">8</div>
+            <div class="column">9</div>
+            <div class="column">10</div>
+            <div class="column">11</div>
+            <div class="column">12</div>
+            <div class="column">13</div>
+            <div class="column">14</div>
+            <div class="column">15</div>
+            <div class="column">16</div>
+        </div>
+        <h1>Merge Grid</h1>
+        <div class="ui grid">
+            <div class="three wide column">
+                <div class="ui dropdown">
+                    <div class="text">File</div>
+                    <i class="dropdown icon"></i>
+                    <div class="menu">
+                        <div class="item">New</div>
+                        <div class="item">
+                        <span class="description">ctrl + o</span>
+                        Open...
+                        </div>
+                        <div class="item">
+                        <span class="description">ctrl + s</span>
+                        Save as...
+                        </div>
+                        <div class="item">
+                        <span class="description">ctrl + r</span>
+                        Rename
+                        </div>
+                        <div class="item">Make a copy</div>
+                        <div class="item">
+                        <i class="folder icon"></i>
+                        Move to folder
+                        </div>
+                        <div class="item">
+                        <i class="trash icon"></i>
+                        Move to trash
+                        </div>
+                        <div class="divider"></div>
+                        <div class="item">Download As...</div>
+                        <div class="item">
+                        <i class="dropdown icon"></i>
+                        Publish To Web
+                        <div class="menu">
+                            <div class="item">Google Docs</div>
+                            <div class="item">Google Drive</div>
+                            <div class="item">Dropbox</div>
+                            <div class="item">Adobe Creative Cloud</div>
+                            <div class="item">Private FTP</div>
+                            <div class="item">Another Service...</div>
+                        </div>
+                        </div>
+                        <div class="item">E-mail Collaborators</div>
+                    </div>
+                </div>
+            </div>
+            <div class="two wide column">
+                <button class="ui fluid button">
+                    fluid
+                </button>
+            </div>
+            <div class="column">6</div>
+            <div class="column">7</div>
+            <div class="column">8</div>
+            <div class="column">9</div>
+            <div class="column">10</div>
+            <div class="column">11</div>
+            <div class="column">12</div>
+            <div class="column">13</div>
+            <div class="column">14</div>
+            <div class="column">15</div>
+            <div class="column">16</div>
+        </div>
+        <h1>custom Grid</h1>
+        <div class="ui four column grid">
+            <div class="column">1</div>
+            <div class="column">2</div>
+            <div class="column">3</div>
+            <div class="column">4</div>
+        </div>
+        <h1>Grid row</h1>
+        <div class="ui four column grid">
+            <div class="row">
+                <div class="column">1</div>
+                <div class="column">2</div>
+                <div class="column">3</div>
+                <div class="column">4</div>
+            </div>
+            <div class="row">
+                <div class="column">3</div>
+                <div class="column">4</div>
+                <div class="column">5</div>
+                <div class="column">6</div>
+            </div>
+        </div>
+        <h1>container + grid</h1>
+        <p>컨테이너는 외곽 / 그리드는 내곽</p>
+        <div class="ui four column grid container">
+            <div class="column">1</div>
+            <div class="column">2</div>
+            <div class="column">3</div>
+            <div class="column">4</div>
+        </div>
+        <h1>Gutters</h1>
+        <p>그리드 여백</p>
+        <div class="ui four column relaxed grid container">
+            <div class="column">1</div>
+            <div class="column">2</div>
+            <div class="column">3</div>
+            <div class="column">4</div>
+        </div>
+        <h1>Stackable</h1>
+        <p>쌓을수 있는.. 가로로 펼쳐있는 행을 열로 바꿔줌</p>
+        <div class="ui four column stackable grid container">
+            <div class="column">1</div>
+            <div class="column">2</div>
+            <div class="column">3</div>
+            <div class="column">4</div>
+        </div>
+    </body>
+</html>

@@ -9,7 +9,7 @@ input,select,textarea,button{vertical-align:middle}
 input::-ms-clear{display:none}
 button{border:0 none;background-color:transparent;cursor:pointer}
 body{background:#fff;}
-body,th,td,input,select,textarea,button{font-size:12px;line-height:1.5;font-family:'Malgun Gothic','Apple Gothic',sans-serif;color:#333} /* color값은 디자인가이드에 맞게사용 */
+body,th,td,input,select,textarea,button{font-size:14px;line-height:1.5;font-family:'Malgun Gothic','Apple Gothic',sans-serif;color:#333} /* color값은 디자인가이드에 맞게사용 */
 a{color:#333;text-decoration:none;cursor: pointer;}
 a:active, a:hover{text-decoration:none}
 a:active{background-color:transparent}
@@ -57,11 +57,14 @@ address,caption,cite,code,dfn,em,var{font-style:normal;font-weight:normal}
 .list_Rating li{float: left; width: 32%; border: 1px solid #000; margin: 1% 0 1% 1%; padding: 2%;}
 .list_score{}
 .list_score dt{float:left}
-.list_score dd{width: 100%;padding-left: 50%;}
+.list_score dd{width: 100%;padding-left: 50%;text-align: right}
 
 .sel_state{border: 1px solid #222; margin: 2% 1%; padding: 2%;}
 .sel_state .inpRadio{display: inline-block;height: 15px; vertical-align: middle; margin: 0 10px;cursor: pointer;}
 .sel_state .lab_state{display: inline-block;font-size: 15px; vertical-align: middle; margin: 0 10px;cursor: pointer;}
+.wrap_commt{text-align: right;width: 98%}
+.wrap_commt .txt_KillDeath{display: inline-block;}
+
 
 .inpName{margin: 3% 0 0 0;width: 80%; max-width: 400px;height:40px;padding:0 10px;font-size: 1.5em;border: 2px solid #54447c;}
 .info_month{margin: 5% 0;}
@@ -72,3 +75,9 @@ address,caption,cite,code,dfn,em,var{font-style:normal;font-weight:normal}
 
 .btn_sear{margin: 3% 0 0 0; background-color: #54457d;}
 .btn_sear .ico_sear{display: inline-block; color: #fff; margin: 11px 32px; font-size: 18px; line-height: 1em; vertical-align: middle; }
+
+
+@media not all and (min-width:480px){
+  .list_score{font-size: 20px}
+  .list_Rating li{width: 98%}
+}

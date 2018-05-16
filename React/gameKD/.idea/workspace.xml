@@ -10,14 +10,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.254756">
+    <splitter split-orientation="horizontal" split-proportion="0.662531">
       <split-first>
         <leaf>
           <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/bgStagnates/src/App.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="182">
-                  <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+                <state>
+                  <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
                   <folding>
                     <element signature="e#0#41#0" expanded="true" />
                   </folding>
@@ -28,7 +28,7 @@
           <file leaf-file-name="ViewGraph.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/bgStagnates/src/component/ViewGraph.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
+                <state>
                   <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
                 </state>
               </provider>
@@ -37,8 +37,8 @@
           <file leaf-file-name="RatingList.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/bgStagnates/src/component/RatingList.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+                <state>
+                  <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
                   <folding>
                     <element signature="e#0#49#0" expanded="true" />
                   </folding>
@@ -46,20 +46,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="UnitRatingList.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="UnitRatingList.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/bgStagnates/src/component/UnitRatingList.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="15">
-                  <caret line="1" selection-start-line="1" selection-end-line="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Header.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/bgStagnates/src/component/Header.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="75">
-                  <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+                <state relative-caret-position="225">
+                  <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
                 </state>
               </provider>
             </entry>
@@ -67,8 +58,17 @@
           <file leaf-file-name="SelState.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/bgStagnates/src/component/SelState.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+                <state>
+                  <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Header.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/bgStagnates/src/component/Header.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
                 </state>
               </provider>
             </entry>
@@ -81,8 +81,8 @@
           <file leaf-file-name="App.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/bgStagnates/src/App.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="330">
-                  <caret line="22" column="52" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
+                <state>
+                  <caret line="64" column="39" selection-start-line="64" selection-start-column="39" selection-end-line="64" selection-end-column="39" />
                 </state>
               </provider>
             </entry>
@@ -90,7 +90,7 @@
           <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/bgStagnates/src/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="18">
+                <state>
                   <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
                 </state>
               </provider>
@@ -103,8 +103,8 @@
           <file leaf-file-name="App.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/bgStagnates/src/App.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="54" column="154" selection-start-line="54" selection-start-column="154" selection-end-line="54" selection-end-column="154" />
+                <state relative-caret-position="457">
+                  <caret line="64" column="39" selection-start-line="64" selection-start-column="39" selection-end-line="64" selection-end-column="39" />
                 </state>
               </provider>
             </entry>
@@ -123,8 +123,10 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>defaultProps =</find>
       <find>txt_desc</find>
+      <find>defaultProps =</find>
+      <find>.list_Rating</find>
+      <find>.App-title</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -146,6 +148,13 @@
         <option value="$PROJECT_DIR$/hello-world/src/App.css" />
         <option value="$PROJECT_DIR$/bgStagnates/src/component/Header.js" />
         <option value="$PROJECT_DIR$/bgStagnates/src/App.css" />
+        <option value="$PROJECT_DIR$/bgStagnates/src/component/SelState.js" />
+        <option value="$PROJECT_DIR$/bgStagnates/src/component/UnitRatingList.js" />
+        <option value="$PROJECT_DIR$/bgStagnates/src/component/RatingList.js" />
+        <option value="$PROJECT_DIR$/bgStagnates/src/App.js" />
+        <option value="$PROJECT_DIR$/bgStagnates/src/containers/index.js" />
+        <option value="$PROJECT_DIR$/bgStagnates/src/service/post.js" />
+        <option value="$PROJECT_DIR$/bgStagnates/src/containers/postContainer/postContainer.js" />
       </list>
     </option>
   </component>
@@ -163,7 +172,7 @@
       <path value="$PROJECT_DIR$/bgStagnates/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="824" />
@@ -189,7 +198,42 @@
               <item name="gameKD" type="b2602c69:ProjectViewProjectNode" />
               <item name="gameKD" type="462c0819:PsiDirectoryNode" />
               <item name="bgStagnates" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gameKD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gameKD" type="462c0819:PsiDirectoryNode" />
+              <item name="bgStagnates" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gameKD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gameKD" type="462c0819:PsiDirectoryNode" />
+              <item name="bgStagnates" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gameKD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gameKD" type="462c0819:PsiDirectoryNode" />
+              <item name="bgStagnates" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gameKD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gameKD" type="462c0819:PsiDirectoryNode" />
+              <item name="bgStagnates" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="postContainer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gameKD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gameKD" type="462c0819:PsiDirectoryNode" />
+              <item name="bgStagnates" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -204,6 +248,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -274,12 +319,12 @@
       <option name="presentableId" value="Default" />
       <updated>1526289746586</updated>
       <workItem from="1526289748102" duration="809000" />
-      <workItem from="1526291419890" duration="11364000" />
+      <workItem from="1526291419890" duration="17730000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12173000" />
+    <option name="totallyTimeSpent" value="18539000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -291,7 +336,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="824" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="824" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -304,10 +349,10 @@
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="6" />
       <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.46164772" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.2940341" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.91903406" visible="true" weight="0.13519314" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.91903406" visible="true" weight="0.16881259" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -330,7 +375,7 @@
       <window_info anchor="bottom" id="Run" order="6" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.91903406" visible="true" weight="0.2532189" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.91903406" visible="true" weight="0.13519314" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="bottom" id="TODO" order="10" sideWeight="0.08096591" weight="0.0" />
@@ -342,7 +387,7 @@
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="3" visible="true" weight="0.32954547" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.2940341" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
@@ -403,16 +448,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bgStagnates/src/index.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bgStagnates/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bgStagnates/src/registerServiceWorker.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -420,58 +455,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bgStagnates/src/component/SelState.js">
+    <entry file="file://$PROJECT_DIR$/bgStagnates/src/containers/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bgStagnates/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bgStagnates/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        <state relative-caret-position="208">
+          <caret line="205" column="5" selection-start-line="205" selection-start-column="5" selection-end-line="205" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bgStagnates/src/App.js">
+    <entry file="file://$PROJECT_DIR$/bgStagnates/src/service/post.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bgStagnates/src/containers/postContainer/postContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bgStagnates/src/component/ViewGraph.js">
+    <entry file="file://$PROJECT_DIR$/bgStagnates/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        <state>
+          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bgStagnates/src/index.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bgStagnates/src/component/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bgStagnates/src/component/SelState.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bgStagnates/src/component/RatingList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        <state>
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
           <folding>
             <element signature="e#0#49#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bgStagnates/src/component/UnitRatingList.js">
+    <entry file="file://$PROJECT_DIR$/bgStagnates/src/component/ViewGraph.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state>
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bgStagnates/src/component/Header.js">
+    <entry file="file://$PROJECT_DIR$/bgStagnates/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        <state>
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bgStagnates/src/component/UnitRatingList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bgStagnates/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="54" column="154" selection-start-line="54" selection-start-column="154" selection-end-line="54" selection-end-column="154" />
+        <state relative-caret-position="457">
+          <caret line="64" column="39" selection-start-line="64" selection-start-column="39" selection-end-line="64" selection-end-column="39" />
         </state>
       </provider>
     </entry>

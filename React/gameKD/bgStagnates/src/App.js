@@ -4,7 +4,7 @@ import SelState from './component/SelState';
 import Header from './component/Header';
 import RatingList from './component/RatingList';
 import ViewGraph from './component/ViewGraph';
-import UnitRatingList from './component/UnitRatingList';
+import axios from 'axios';
 
 class App extends Component {
   render() {

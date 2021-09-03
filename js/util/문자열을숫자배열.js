@@ -1,0 +1,1 @@
+const answerArray = this.IDBCursorWithValue.split('').map( v => parseInt(v))

@@ -38,41 +38,22 @@
       onClickScreen() {
         if (this.state === 'waiting') {
           this.state = 'ready';
-          this.message = '초록색이 되면 클릭하세요.'
+          this.message = '초록색이 되면 클릭하세요.';
           timeout = setTimeout(() => {
             this.state = 'now';
-            this.message = '지금 클릭';
+            this.message = '지금 클릭!';
             startTime = new Date();
-          }, Math.floor(Math.random() * 2000))
-        } else if ( this.state === 'ready') {
-          clearTimeout(timeout)
-          this.state = 'now';
+          }, Math.floor(Math.random() * 1000) + 2000); // 2~3초
+        } else if (this.state === 'ready') {
+          clearTimeout(timeout);
+          this.state = 'waiting';
           this.message = '너무 성급하시군요! 초록색이 된 후에 클릭하세요.'
-          
         } else if (this.state === 'now') {
           endTime = new Date();
           this.state = 'waiting';
           this.message = '클릭해서 시작하세요.';
           this.result.push(endTime - startTime);
         }
-        // if (this.state === 'waiting') {
-        //   this.state = 'ready';
-        //   this.message = '초록색이 되면 클릭하세요.';
-        //   timeout = setTimeout(() => {
-        //     this.state = 'now';
-        //     this.message = '지금 클릭!';
-        //     startTime = new Date();
-        //   }, Math.floor(Math.random() * 1000) + 2000); // 2~3초
-        // } else if (this.state === 'ready') {
-        //   clearTimeout(timeout);
-        //   this.state = 'waiting';
-        //   this.message = '너무 성급하시군요! 초록색이 된 후에 클릭하세요.'
-        // } else if (this.state === 'now') {
-        //   endTime = new Date();
-        //   this.state = 'waiting';
-        //   this.message = '클릭해서 시작하세요.';
-        //   this.result.push(endTime - startTime);
-        // }
       }
     },
   };

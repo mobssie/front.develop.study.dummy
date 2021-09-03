@@ -1,1 +1,1 @@
-const answerArray = this.IDBCursorWithValue.split('').map( v => parseInt(v))
+const answerArray = this.value.split('').map( v => parseInt(v))

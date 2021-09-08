@@ -39,3 +39,8 @@ let student = new Student('어', '피치', 4 , 'famale', 3)
 console.log(teacher.getSubject('라','이언')); // 'math' 반환
 console.log(student.getAge('어','피치')); // 4반환
 console.log(student.getSubject('어','피치')); // 자기 자신과 부모 클래스에 없는 메서드 호출로 에러 발생
+
+
+
+
+

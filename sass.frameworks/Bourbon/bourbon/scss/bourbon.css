@@ -52,25 +52,27 @@
 }
 
 div {
-  width: 31.6582914573%;
-  margin-left: 2.5125628141%;
+  width: 31.65829%;
+  margin-left: 2.51256%;
 }
+
 div p {
-  width: 46.0317460317%;
+  width: 46.03175%;
   float: left;
-  margin: 7.9365079365%;
+  margin: 7.93651%;
 }
+
 div blockquote {
   float: left;
-  width: 46.0317460317%;
+  width: 46.03175%;
 }
 
 .sample {
-  font-size: 36.650936px;
+  font-size: 36.65094px;
 }
 
 .sample2 {
-  font-size: 8.652657602px;
+  font-size: 8.65266px;
 }
 
 .linear {
@@ -87,9 +89,9 @@ div blockquote {
 }
 
 .mod1 {
-  font-size: 1.776889em;
-  font-size: 0.7501875469em;
-  font-size: 4.737186074em;
+  font-size: 1.77689em;
+  font-size: 0.75019em;
+  font-size: 4.73719em;
 }
 
 .tint, .shade {
@@ -136,6 +138,7 @@ div blockquote {
   text-shadow: 0 1px 0 #0065d6;
   background-clip: padding-box;
 }
+
 .btn1:hover:not(:disabled) {
   background-color: #2f87ea;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#2f87ea), to(#086fe3));
@@ -144,11 +147,13 @@ div blockquote {
           box-shadow: inset 0 1px 0 0 #60a2ec;
   cursor: pointer;
 }
+
 .btn1:active:not(:disabled), .btn1:focus:not(:disabled) {
   border: 1px solid #076fe4;
   -webkit-box-shadow: inset 0 0 8px 4px #0868d3, inset 0 0 8px 4px #0868d3;
           box-shadow: inset 0 0 8px 4px #0868d3, inset 0 0 8px 4px #0868d3;
 }
+
 .btn1:disabled {
   cursor: not-allowed;
   opacity: 0.5;
@@ -174,6 +179,7 @@ div blockquote {
   text-shadow: 0 -1px 1px #2762bf;
   background-clip: padding-box;
 }
+
 .btn2:hover:not(:disabled) {
   background-color: #2d88ee;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#2d88ee), to(#1554ce));
@@ -186,6 +192,7 @@ div blockquote {
   cursor: pointer;
   text-shadow: 0 -1px 1px #134faf;
 }
+
 .btn2:active:not(:disabled), .btn2:focus:not(:disabled) {
   background: #226edd;
   border: 1px solid #0d3c8c;
@@ -194,6 +201,7 @@ div blockquote {
           box-shadow: inset 0 0 6px 3px #0c44b8;
   text-shadow: 0 -1px 1px #1a52aa;
 }
+
 .btn2:disabled {
   cursor: not-allowed;
   opacity: 0.5;
@@ -217,16 +225,19 @@ div blockquote {
   text-decoration: none;
   text-shadow: 0 -1px 1px #730000;
 }
+
 .btn3:hover:not(:disabled) {
   background-color: #f20000;
   background-image: -webkit-gradient(linear,left top, left bottom,from(#f20000), color-stop(50%, #bd0000), color-stop(50%, #a20000), to(#a90000));
   background-image: linear-gradient(to bottom,#f20000 0%, #bd0000 50%, #a20000 50%, #a90000 100%);
   cursor: pointer;
 }
+
 .btn3:active:not(:disabled), .btn3:focus:not(:disabled) {
   -webkit-box-shadow: inset 0 0 20px 0 #900000;
           box-shadow: inset 0 0 20px 0 #900000;
 }
+
 .btn3:disabled {
   cursor: not-allowed;
   opacity: 0.5;
@@ -247,5 +258,4 @@ div blockquote {
   white-space: nowrap;
   word-wrap: normal;
 }
-
 /*# sourceMappingURL=bourbon.css.map */

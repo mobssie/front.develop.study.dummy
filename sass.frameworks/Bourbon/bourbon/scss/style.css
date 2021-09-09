@@ -16,7 +16,7 @@
 }
 
 .col-3 {
-  width: 28.5714285714%;
+  width: 28.57143%;
   padding: 20px;
   display: inline-block;
 }
@@ -373,12 +373,14 @@ h6 {
   font-weight: normal;
   src: url("../fonts/Diner-Fatt-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Diner-Fatt-webfont.woff2") format("woff2"), url("../fonts/Diner-Fatt-webfont.woff") format("woff"), url("../fonts/Diner-Fatt-webfont.ttf") format("truetype"), url("../fonts/Diner-Fatt-webfont.svg#Diner") format("svg");
 }
+
 @font-face {
   font-family: "OpenSans Light";
   font-style: normal;
   font-weight: normal;
   src: url("../fonts/OpenSans-Light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-Light-webfont.woff2") format("woff2"), url("../fonts/OpenSans-Light-webfont.woff") format("woff"), url("../fonts/OpenSans-Light-webfont.ttf") format("truetype"), url("../fonts/OpenSans-Light-webfont.svg#OpenSans Light") format("svg");
 }
+
 body {
   line-height: 1.5em;
   font-size: 0.85em;
@@ -392,6 +394,7 @@ header {
   height: 100px;
   padding: 20px 10px;
 }
+
 header .logo {
   float: left;
   margin-top: 25px;
@@ -399,27 +402,32 @@ header .logo {
   font-family: "Diner";
   font-size: 4.5rem;
 }
+
 header .logo a {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
   text-shadow: rgba(13, 13, 13, 0.9) 0 3px 5px;
 }
+
 header nav {
   float: right;
   margin-top: 21px;
   font-size: 1.2rem;
   font-family: "OpenSans Light";
 }
+
 header nav li {
   display: inline-block;
   text-transform: capitalize;
 }
+
 header nav li a {
   color: #fff;
   text-decoration: none;
   padding: 10px 30px;
 }
+
 header nav li a:hover {
   color: #ffae01;
 }
@@ -433,6 +441,7 @@ header nav li a:hover {
   background-position: center;
   background-size: cover;
 }
+
 .fronts .maintxt {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -447,6 +456,7 @@ header nav li a:hover {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#e1e1e1), color-stop(#f5f5f5), to(#fff));
   background-image: linear-gradient(#e1e1e1, #f5f5f5, #fff);
 }
+
 .whitegra h3 {
   font-family: "Diner";
   font-size: 3rem;
@@ -485,9 +495,9 @@ body {
   display: inline-block;
   padding-left: 5px;
 }
+
 .icons ul li a {
   color: #fff;
   opacity: 0.7;
 }
-
 /*# sourceMappingURL=style.css.map */

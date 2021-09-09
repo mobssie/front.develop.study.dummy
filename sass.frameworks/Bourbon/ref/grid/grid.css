@@ -1,14 +1,15 @@
 div {
   width: flex-grid(4);
 }
+
 div p {
   width: flex-grid(2, 4);
   float: left;
   margin: flex-grid(4);
 }
+
 div blockquote {
   float: left;
   width: flex-grid(2, 4);
 }
-
 /*# sourceMappingURL=grid.css.map */

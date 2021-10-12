@@ -69,8 +69,8 @@ lastChild : 마지막 자식 노드를 반환
 #### firstElementChild(), lastElementChild()
 타입 : DOM *속성*
 설명 : 
-firstElementChild : 첫번째 자식 엘리먼트 반환
-lastElementChild : 마지막 자식 엘리먼트를 반환
+firstElementChild - 첫번째 자식 엘리먼트 반환
+lastElementChild - 마지막 자식 엘리먼트를 반환
 자식 엘리먼트가 없을 경우 null 반환
 ---
 #### children()
@@ -83,5 +83,29 @@ lastElementChild : 마지막 자식 엘리먼트를 반환
 #### createElement(), createTextNode()
 타입 : DOM **메서드**
 설명 : 
-createElement() : 엘리먼트를 생성함. 파라메터에는 태그 이름만 사용 가능. 생성된 엘리먼트 노드 객체를 반환함.
-createTextNode() : 텍스트 노드를 생성해 텍스트 노드를 반환함.
+createElement() - 엘리먼트를 생성함. 파라메터에는 태그 이름만 사용 가능. 생성된 엘리먼트 노드 객체를 반환함.
+createTextNode() - 텍스트 노드를 생성해 텍스트 노드를 반환함.
+---
+#### before(), after()
+타입 : 자바스크립트 메서드
+설명 : 
+after() - 선택한 노드의 뒤에 추가함.
+before() - 선택한 노드의 앞에 추가함.
+문자열, 엘리먼트(노드) 객체 모두 추가 요소로 사용 가능하며, 문자열을 인자로 넣을 경우 텍스트 노드가 추가됨.
+반환 값이 없음.("undefined" 반환)
+나머지 파라메터로 여러 개의 노드와 문자열을 추가하는 것이 가능.
+**인터넷 익스플로러 미지원.**
+createTextNode(), createElement() 이용한 노드 생성 및 추가 과정을 before()/after() 1개의 메서드로 줄여서 사용할 수 있기 때문에 코드 최적화 및 가독성 향상에 유리함.
+가급적 before(), after() 메서드를 사용해 DOM을 제어하는 것을 추천한다.
+----
+#### prepend(), append()
+타입 : 자바스크립트 메서드
+설명 : 
+prepend() - 현재 엘리먼트 첫번째 자식 엘리먼트 앞에 추가한다.
+append() - 현재 엘리먼트의 자식 엘리먼트 중 마지막 엘리먼트 뒤에 추가한다.
+문자열, 엘리먼트(노드) 객체 모두 추가 요소로 사용 가능하며, 문자열을 인자로 넣을 경우 텍스트 노드가 추가됨.
+반환 값이 없음 ("undefined"반환)
+나머지 파라메터로 여러 개의 노드와 문자열을 추가하는 것이 가능.
+**인터넷 익스플로러 미지원.**
+createTextNode()와 createElement()를 이용한 노드 생성 및 추가 과정을 prepend(), 또는  append() 1개의 메서드로 줄여서 사용할 수 있기 때문에 코드 최적화 및 가독성 향상에 유리하다.
+가급적 prepend(), append() 메서드를 사용해 DOM을 제어하는 것을 추천한다.

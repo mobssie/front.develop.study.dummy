@@ -102,3 +102,107 @@ document.querySelectorAll("div").forEach(function (el) {
 // <div id="title" class="bold padding0 smalltext red">title</div>
 // <div id="content" class="bold padding0 red">title</div>
 ```
+
+### 클래스 삭제
+```
+엘리먼트노드.removeAttribute('class');
+```
+속성(class="클래스명") 전체가 삭제되므로 HTML 코드를 깨끗하게 유지할 수 있다.
+```javascript
+<div id="title" class="bold padding0 smalltext red">title</div>
+<div id="content" class="bold padding0 red">content</div>
+
+document.querySelector('div').forEach(function(el){
+  el.removeAttribute('class'); // removeAttribute() 메서드로 클래스 삭제
+})
+
+// <div id="title">title</div>
+// <div id="content">content</div>
+```
+
+클래스만 삭제하고 속성(class="")은 남겨두려면
+`엘리먼트노드.className = '';`
+`엘리먼트노드.setAttribute('class', '')`
+
+
+
+
+
+### classList를 이용한 편리한 클래스 관리
+*!주의* 인터넷익스클로러는 지원하지 않는다.
+
+**클래스 추가**
+- 개별 클래스 다뉘로 추가 가능하며, 나머지 파라메터를 지원하므로 여러개의 클래스명을 한번에 추가할 수 있다.
+```javascript
+엘리먼트노드.classList.add('클래스1', '클래스2', ...클래스파라메터)
+```
+
+나머지 파라메터를 지원하므로 파라메터로 배열을 넣을 수도 있다.
+클래스를 별도의 배열 구조로 관리하면, 다음과 같이 나머지 파라메터를 활용해 배열로 클래스 속성관리를 손쉽게 할 수 있다.
+```javascript
+let arrclass = ['클래스1', '클래스2'];
+엘리먼트노드.classList.add(...arrclass);
+```
+
+**클래스 삭제**
+```javascript
+엘리먼트노드.classList.removeßß('클래스1', '클래스2', ...클래스파라메터)
+
+let arrclass = ['클래스1', '클래스2'];
+엘리먼트노드.classList.remove(...arrclass);
+```
+**클래스 토글(온오프)**
+- 클래스가 있으면 삭제하고, 없으면 추가하는 스위치 메서드.
+클래스는 1개씩만 개별 적용된다.
+```javascript
+엘리먼트노드.classList.toggle('클래스1');
+```
+
+**클래스가 있는지 확인**
+"classList.replace()"메서드와 조합해 사용.
+```javascript
+엘리먼트노드.contains('클래스명');
+```
+
+**클래스 대체(교환)**
+```javascript
+엘리먼트노드.classList.replace('클래스명')
+```
+#### classList로 클래스 관리 예
+```javascript
+<div id="title" class="">title</div>
+<div id="content" class="">content</div>
+<div id="footer" class="">
+  <ul>
+    <li>home</li>
+    <li>admin</li>
+  </ul>
+</div>
+document.getElementById('title').classList.add('bold', 'padding10');
+document.querySelectorAll('div').forEach(function(el){
+  if(el.classList.contains('padding10')){
+    el.classList.remove('padding10'); // 클래스 삭제
+  }
+  el.classList.add('padding0', 'red'); // 여러개의 클래스 추가
+});
+document.getElementById('title').classList.toggle('red'); // 클래스 토글
+const footer = document.getElementById('footer');
+if(footer.classList.contains('padding10')){
+  footer.classList.replace('padding10', 'margin10');
+}
+
+const arrCommonClass = ['copyright', 'inline'];
+const infos = document.querySelectorAll('#footer ul li');
+infos.forEach(function(el){
+  el.classList.add(...arrCommonClass); // 펼침 연산자로 배열 요소들을 클래스로 추가
+})
+
+// <div id="title" class="bold padding0">title</div>
+// <div id="content" class="padding0 red">content</div>
+// <div id="footer" class="padding0 red">
+//   <ul>
+//     <li class="copyright inline">home</li>
+//     <li class="copyright inline">admin</li>
+//   </ul>
+// </div>  
+```

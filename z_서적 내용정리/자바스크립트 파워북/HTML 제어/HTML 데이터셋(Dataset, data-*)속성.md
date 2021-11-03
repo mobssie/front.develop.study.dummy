@@ -58,3 +58,19 @@ querySelectorAll('div[data-itemtype="animal"]');
 
 ### 사용상 제약사항
 **데이터셋 속성은 검색 엔진에서 인덱싱을 하지 않는다. 따라서 검색엔진에 노출할 내용이나, 태그에 넣어야 할 컨텐츠를 데이터셋 속성으로 표시하면 안된다. 또, 인터넷 익스플로러 10까지는 지원되지 않는다. 인터넷 익스플로러 10이하 호환성 유지가 필요한 경우, 데이터셋 속성에 접근하려면 getAttribute()로 개별 접근해야 한다. 접근 방법의 제약으로 인해 인터넷 익스플로러 10이하 지원이 필요한 경우 데이터셋 속성 사용은 가능하면 피하는 것이 좋다.**
+
+
+### 데이터셋 속성 모두보기
+DOM 데이터셋 속성은 별도로 "dataset" 맵으로 모아 저장된다. 데이터셋 속성을 하나씩 출력해 확인할 수도 있지만, "dataset" 맵 전체를 콘솔에 바로 출력해 데이터 셋 속성 값을 한번에 확인할 수도 있다.
+```html
+<div id="slider" data-min="3" data-max="50" data-itemtype="noodle">컵라면</div>
+```
+```javascript
+let item = document.querySelector('#slider');
+console.log(item.dataset);
+// [object DOMStringMap] {
+//   itemtype : "noddle",
+//   max : "50",
+//   min : "3"
+// }
+```

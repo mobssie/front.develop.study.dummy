@@ -86,8 +86,12 @@ const MyComponent = {
 }
 ```
 
-이러한 라이프 사이클 훅 등록 함수는 내부 전역에 의존하여 현재 활성 인스턴스( setup() 이 지금 호출되는 컴포넌트 인스턴스)를 찾기 때문에 setup() 중에 동기식으로만 사용할 수 있다. 현재 활성 인스턴스없이 호출하면 오류가 발생한다.
-컴포넌트 인스턴스 컨텍스트는 라이프사이클 훅의 동기 실행중에도 설정된다. 결론적으로 라이프사이클 훅 내에서 동기적으로 생성된 감시자(watchers)와 계산된 속성(computed properties)도 컴포넌트가 마운트 해제될 때 자동으로 해제된다.
+이러한 라이프 사이클 훅 등록 함수는 내부 전역에 의존하여 
+현재 활성 인스턴스( setup() 이 지금 호출되는 컴포넌트 인스턴스)를 찾기 때문에 setup()중에 동기식으로만 사용할 수 있다. 
+현재 활성 인스턴스없이 호출하면 오류가 발생한다.
+컴포넌트 인스턴스 컨텍스트는 라이프사이클 훅의 동기 실행중에도 설정된다. 
+결론적으로 라이프사이클 훅 내에서 동기적으로 생성된 감시자(watchers)와 
+계산된 속성(computed properties)도 컴포넌트가 마운트 해제될 때 자동으로 해제된다.
 
 * 옵션 api라이프사이클 옵션과 Composition API간의 매핑
   * beforeCreate -> setup() 사용
@@ -116,14 +120,17 @@ function inject<T>(key: InjectionKey<T> | string, value: T) : T | undefined
 function inject<T>(T)(key: Injectionkey<T> | string, defaultValue: T) : T
 ```
 
-Vue는 Symbol을 확장하는 일반유형인 Injectionkey 인터페이스를 제공한다. 공급자(provide)와 소비자(consumer)간에 삽입된 값의 유형을 동기화 하는데 사용
+
+
+
+
+Vue는 Symbol을 확장하는 일반유형인 Injectionkey 인터페이스를 제공한다. 
+공급자(provide)와 소비자(consumer)간에 삽입된 값의 유형을 동기화 하는데 사용
+
 ```javascript
 import { Injectionkey, provide, inject } from 'vue'
-
 const key: InjectionKey<string> = Symbol()
-
 provide(key, 'foo') // 문자열이 아닌 값을 제공하면 오류가 발생한다.
-
 const foo = inject(key) // foo의 타입: string | undefined
 ```
 
@@ -135,3 +142,53 @@ const foo = inject<string>('foo') // string | undefined
 
 ### getCurrentInstance
 `getCurrentInstance`를 사용하면 고급 사용이나 라이브러리를 생성하는 이에게 유용한 내부 컴포넌트 인스턴스에 접근할 수 있다.
+```js
+import { getCurrentInstance } from 'vue';
+
+const MyComponent = {
+  setup () {
+    const internalInstance = getCurrentInstance()
+
+    internalInstance.appContext.config.globalProties // globalProties
+  }
+}
+```
+
+`getCurrentInstance`는 오직 setup이나 Lifecycle Hooks에서만 작동한다.
+setup이나 Lifecycle Hooks외부에서 사용하는 경우, setup에서 getCurrentInstance()를 호출하고 대신 인스턴스를 사용.
+
+```js
+const MyComponent = {
+  setup() {
+    const internalInstance = getCurrentInstance() // 작동함
+
+    const id = useComponentId() // 작동함
+
+    const handleClick = () => {
+      getCurrentInstance() // 작동안함
+      useComponentId() // 작동안함
+
+      internalInstance // 작동함
+    }
+  }
+
+  onMounted(() => {
+    getCurrentInstance() // 작동함
+  })
+
+  return () => {
+    h(
+      'button',
+      {
+        onClick: handleClick
+      },
+      `uid: ${id}`
+    )
+  }
+}
+
+// 컴포저블(composale)에서 호출되는 경우에도 작동한다.
+function useComponentId() {
+  return getCurrentInstance().uid
+}
+```

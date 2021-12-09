@@ -1,3 +1,5 @@
+// 객체 속성 값 얻기
+
 let friends = {brand: "카카오", original: [{name: "라이언", age: 5}, {name: "어피치", age: 4}], newbee: {name: '네온', age: 3}}
 // 속성값얻기
 console.log(friends.original[0]);

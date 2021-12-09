@@ -134,3 +134,4 @@ const foo = inject<string>('foo') // string | undefined
 
 
 ### getCurrentInstance
+`getCurrentInstance`를 사용하면 고급 사용이나 라이브러리를 생성하는 이에게 유용한 내부 컴포넌트 인스턴스에 접근할 수 있다.
